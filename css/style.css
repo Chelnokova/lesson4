@@ -1,3 +1,17 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500;700&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Neucha";
+	src: url("../fonts/Neucha.woff2") format("woff2"), url("../fonts/Neucha.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -26,4 +40,248 @@ h6 {
 }
 img {
 	vertical-align: top;
+}
+
+body {
+	font-family: "Neucha", cursive;
+}
+
+.header {
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	color: rgba(11, 11, 204, 0.712);
+}
+
+.header__title {
+	font-size: 80px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: -10px 10px 10px rgba(11, 11, 204, 0.801);
+}
+
+.header__img {
+	text-align: center;
+	line-height: 150%;
+}
+
+.header__img img {
+	height: 600px;
+}
+
+.history {
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-weight: 400;
+	line-height: 200%;
+	text-align: justify;
+	text-transform: capitalize;
+	color: rgb(174, 97, 247);
+}
+
+.history .history__subtitle {
+	font-size: 30px;
+	text-align: right;
+}
+
+.history .history__content {
+	font-size: 20px;
+}
+
+.history .history__content .img {
+	float: left;
+}
+
+.history .history__content img {
+	max-width: 500px;
+}
+
+.history .history__content .img p {
+	font-size: 13px;
+	color: rgb(185, 43, 43);
+}
+
+.life {
+	color: rgb(57, 97, 17);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 150%;
+	text-transform: lowercase;
+	text-align: right;
+}
+
+.life .life__subtitle {
+	font-size: 40px;
+}
+
+.form {
+	font-family: "Pacifico", cursive;
+	color: rgb(92, 91, 91);
+	font-size: 18px;
+	line-height: 200%;
+	text-align: center;
+}
+
+.form .form__subtitle {
+	font-size: 40px;
+}
+.form .form__content .img1 {
+	float: left;
+	font-size: 13px;
+	color: rgb(97, 46, 134);
+}
+
+.form .form__content .img2 {
+	max-width: 600px;
+	float: right;
+	font-size: 13px;
+	color: rgb(97, 46, 134);
+}
+
+.form .form__content img {
+	max-height: 400px;
+}
+
+.composition {
+	font-size: 20px;
+	text-align: right;
+	letter-spacing: 10px;
+}
+
+.composition .composition__subtitle {
+	font-size: 30px;
+}
+
+.inside {
+	font-size: 25px;
+	font-style: oblique;
+	color: rgb(160, 86, 86);
+}
+
+.inside .inside__subtitle {
+	letter-spacing: 10px;
+	font-size: 40px;
+	text-shadow: -5px -5px 4px #000;
+}
+
+.inside .section .subtitle {
+	font-size: 40px;
+}
+
+.inside .section .aside h4 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.inside .section .aside img {
+	max-height: 400px;
+}
+
+.platform .platform__subtitle {
+	font-size: 50px;
+	font-weight: 700;
+	color: lightsalmon;
+	letter-spacing: 20px;
+}
+
+.platform .platform__content {
+	font-size: 23px;
+	text-indent: 100px;
+	text-align: justify;
+	color: magenta;
+}
+
+.platform .platform__content .platform__img {
+	text-align: center;
+	text-indent: 0px;
+}
+
+.platform .platform__content .platform__img img {
+	text-align: center;
+	max-height: 400px;
+}
+
+.shell .shell__subtitle {
+	color: rgb(23, 23, 109);
+	font-size: 50px;
+}
+
+.shell .shell__content {
+	color: rgb(72, 72, 247);
+	font-size: 25px;
+	line-height: 40px;
+	white-space: nowrap;
+}
+
+.shell .shell__img {
+	text-align: right;
+}
+
+.shell .shell__img img {
+	max-height: 600px;
+}
+
+.hydrosphere .hydrosphere__subtitle {
+	color: rgb(100, 92, 21);
+	font-size: 50px;
+	text-align: center;
+}
+
+.hydrosphere .hydrosphere__content {
+	font-size: 25px;
+	word-spacing: 50px;
+	color: rgb(173, 163, 65);
+	text-align: center;
+}
+
+.hydrosphere .hydrosphere__img {
+	text-align: center;
+}
+
+.hydrosphere .hydrosphere__img img {
+	max-height: 400px;
+}
+
+.atmosphere .atmosphere__subtitle {
+	font-size: 50px;
+	color: rgb(88, 35, 35);
+}
+
+.atmosphere .atmosphere__content {
+	font-size: 30px;
+	color: rgb(145, 93, 93);
+	text-decoration: line-through;
+}
+
+.biosphere .biosphere__subtitle {
+	font-size: 50px;
+	text-decoration: overline;
+	text-align: right;
+}
+
+.biosphere .biosphere__content {
+	font-size: 18px;
+	color: rgb(172, 5, 38);
+	text-align: justify;
+	text-decoration: underline;
+}
+
+.field .field__subtitle {
+	font-size: 60px;
+	letter-spacing: 50px;
+	text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.field .field__img {
+	float: left;
+	text-align: center;
+}
+
+.field .field__img img {
+	max-height: 300px;
+}
+
+.field .field__content {
+	font-size: 20px;
+	line-height: 30px;
 }
